@@ -1,0 +1,390 @@
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    color: #52575c;
+    line-height: 1.75em;
+    font-size: 14pt;
+}
+body{
+    padding:0px;
+    margin: 0px;
+}
+.headreSection {
+    display: flex;
+    justify-content: space-between;
+    background: rgba(55, 61, 73, 0.975);
+    color: white;
+    position: fixed;
+    width: 100%;
+    margin-top: 0px;
+}
+.logo{
+    font-size: 22px;
+    margin: 20px;
+    color: white;
+}
+.headreSection .leftSide{
+ display: flex;
+ font-size: 16px;
+ justify-content: space-between;
+ margin-top: 15px;
+}
+
+.link{
+    margin-top: 20px;
+}
+
+.back:hover{
+    border: 1px solid rgba(174, 97, 110, 0.52);
+}
+
+.back{
+    border: 1px solid gray;
+    padding: 10px 20px;
+    color:white;
+}
+
+.download{
+    background-color: rgba(183, 22, 41, 0.773);
+    padding: 15px 20px;
+    color: white;
+}
+
+.leftSide ul{
+    list-style: none;
+    display:flex;
+    border: 1px solid rgba(132, 104, 104, 0.647);
+    border-radius: 10px;
+    margin-top: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.leftSide ul a:hover {
+    background-color: #a7998c43;
+    border-radius: 2px;
+}
+.Desktop a{
+    background-color: #a7998c43;
+    border-radius: 2px;
+}
+.leftSide ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+}
+
+.rightsSide{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.share{
+    font-size: 19px;
+    color: white
+}
+.custIcon{
+    margin-left: ;
+}
+
+.rightsSide ul{
+    list-style: none;
+}
+.share{
+    display: flex;
+    border: 1px solid rgba(255, 255, 255, 0.216);
+    border-radius: 5px;
+}
+.rightsSide .headerLInk{
+    display: flex;
+    list-style: none;
+}
+.rightsSide .headerLInk a{
+    text-decoration: none;
+    color:white;
+    padding: 20px;
+}
+
+
+
+header {
+    background-color: #f0c89f;
+}
+nav{
+    padding-top: 38px;
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+}
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+
+ 
+}
+
+.headr-section{
+    padding-top: 50px;
+}
+
+.heder-section{
+    text-align: center;
+}
+
+.head-heading{
+    color: white;
+   text-justify: auto;
+   font-size: 3em;
+}
+.head-para{
+    color:white;
+    font-size: 25px;
+}
+
+.btn-head{
+    font-size: 16px;
+    padding: 26;
+    color: #f0c89f ;
+    margin-bottom: 20px;
+    padding: 20px 40px;
+    border: none;
+    font-weight: 500;
+    margin-bottom: 80px;
+}
+.btn-head:hover {
+    background-color: #f0c89f ;
+    color: brown;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 80px;
+}
+
+main div {
+    text-align: center;
+    padding: 26px 50px;
+}
+
+main div button {
+    columns: gray;
+    padding: 20px 40px;
+}
+
+main div button:hover {
+    color:  #f0c89f;
+
+}
+
+.card {
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 40px;
+}
+
+.btn-handle {
+    display: flex;
+    justify-content: center;
+    
+}
+.hdn-btn {
+    padding: 20px 40px;
+    margin-bottom: 50px;
+    color: #c5b5b5;
+    border: 1px solid #c5b4b5;
+    border-radius: 10px;
+}
+
+.hdn-btn:hover {
+    background-color: gray;
+    columns: pink;
+}
+
+.hello-world{
+    display: inline-block;
+    text-align: center;
+    margin-left: 350px;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+#cardHead{
+    font-size: 36px;
+}
+#cardPara {
+    font-size: 26px;
+    color:rgb(232, 22, 57);
+}
+
+.bg-edit{
+    background-image:url(promo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    background-position: top left, center center;
+    color: #fff;
+    text-align: center;
+    padding: 6em 0 6em 0;
+    margin-top: 50px;
+    
+}
+
+.newBg{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(234, 171, 171, 0.088);
+    margin: auto;
+    width: 60%;
+    padding: 40px;
+    font-size: 22px;
+    border: 1px solid rgba(255, 255, 255, 0.541);
+    border-radius: 10px;
+   
+}
+.newBg .newBg-head{
+    color: #f4f1ee;
+    font-size: 22px;
+}
+.newBg button{
+    margin-left: 30px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 0px 20px;
+    transition: .3s ease-in-out;
+    
+}
+.newBg button:hover{
+    background-color: #a7998c;
+    color: white;
+    transition: .3s ease-in-out;
+    border: 1px solid white;
+}
+footer{
+background-color: #a2918167;
+
+}
+
+.Telephasic{
+    background-color:#a7998c36;
+    padding: 0px 40px 30px;
+    align-items: center;
+    border: 1px solid rgba(246, 245, 245, 0.875);
+    color: white;
+}
+.footerText{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+form{
+    
+    display: 50%;
+}
+
+.footerLeft{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+form textarea{
+    padding: 20px;
+}
+.stleInput{
+    padding: 20px;
+}
+button{
+    border-radius: 8px;
+    color: #101010b7;
+    padding: 20px 40px;
+    margin-left: 0px;
+}
+
+button:hover{
+    color: rgba(156, 50, 67, 0.557);
+    background-color: #a7998c;
+}
+
+.btnDiv{
+    display: flex;
+    margin-top: 20px;
+}
+.btn-mod{
+    margin-left: 15px;
+    border: 1px solid gray;
+}
+
+.footerRight{
+    width: 50%;
+}
+
+.gFoooter{
+    display: flex;
+    padding-bottom: 100px;
+    border-bottom: 1px dotted gray;
+}
+
+input{
+    border-radius: 6px;
+    border: 1px solid gray;
+}
+.icon{
+display: flex;
+justify-content: space-between;
+}
+
+.icon a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 10px;
+    color: gray;
+    padding: 20px;
+}
+
+.lst{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    color: gray;
+}
+.fontAwesomeIcom{
+    padding: 10px;
+    font-size: 40px;
+}
+
+.link{
+    margin-left: 6px;
+}
+.link:hover{
+    color: rgba(166, 34, 56, 0.652);
+}
+
+.icon a{
+    border-bottom: 1px dotted gray;
+    padding: 20px;
+    margin-right: 10px;
+    border-width: 50%;
+}
+.paraLst{
+    padding: 20px;
+}
+
+.paraLst a{
+    color: rgba(100, 78, 78, 0.571);
+    text-decoration: underline dotted;
+}
+
+ul{
+    padding-left: 0px;
+}
